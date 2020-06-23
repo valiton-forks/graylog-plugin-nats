@@ -7,7 +7,7 @@
 
     <groupId>org.graylog.plugins</groupId>
     <artifactId>graylog-plugin-nats</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -32,7 +32,7 @@
         <maven.install.skip>true</maven.install.skip>
         <maven.deploy.skip>true</maven.deploy.skip>
         <maven.site.skip>true</maven.site.skip>
-        <graylog.version>2.1.0</graylog.version>
+        <graylog.version>3.2.4</graylog.version>
         <graylog2.plugin-dir>/usr/share/graylog-server/plugin</graylog2.plugin-dir>
 
         <nats.image>nats:0.9.4</nats.image>
